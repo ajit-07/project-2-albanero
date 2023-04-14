@@ -1,0 +1,24 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.inside-form{
+  display: flex;
+  flex-basis: 30%;
+  flex-wrap: wrap;
+}
+
+.form-child {
+  flex-basis: 30%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 10px;
+  width: 20%;
+  height: 20%;
+}
+.button-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
